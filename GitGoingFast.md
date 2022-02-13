@@ -1,5 +1,5 @@
 # Git Help Commands
-## Help commands here.
+
 
  
 ### Lecture Command Listing
@@ -22,9 +22,8 @@ pwd
 
 ### Git Config (Global/User-level) Syntax
 git config --global setting value
-### Configure User and Email
-### General Syntax:
 
+### General Syntax: Configure User and Email
 git config --global user.name "Your Name"
 git config --global user.email "you@someplace.com"
 
@@ -35,7 +34,7 @@ git config --global --list
 cat ~/.gitconfig
 
 ## Git First Commit Commands
- 
+
 ### Lecture Command Listing
 pwd
 ls
@@ -48,7 +47,6 @@ git commit -m "Initial commit"
 clear
 git status
  
-
 ## Command Reference
 
 ls
@@ -57,10 +55,8 @@ Lists files and folders in current directory. Without parameters, will list non-
 git status
 Shows which files have been modified in the working directory vs Git's staging area.
 
-
 git add file-name
 Adds the new or newly modified file-name to Git's staging area (index).
-
 
 git commit -m "A really good commit message"
 Commits all files currently in Git's staging area. The -m parameter allows for a commit message directly from the command line.
@@ -78,9 +74,7 @@ mkdir dir-name
 cd dir-name
 rmdir dir-name
 
-
 ## Working Locally Commands
-
 ### Lecture Command Listing - Working Locally, Part One
 pwd
 git status
@@ -153,11 +147,9 @@ Following the above command will "unstage" the specified file from Git's staging
 git checkout -- file-name
 Following the above command will back out any changes made to the specified file and replace it with the version last committed in Git
 
-
 ## History and File Management Commands
 ### Git History / File Management Commands
  
-
 ### Lecture Command Listing -- History
 git log
 git help log
